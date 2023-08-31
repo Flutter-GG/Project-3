@@ -7,7 +7,6 @@ class DatabaseBloc extends Bloc<DatabaseEvent, DatabaseState> {
   DatabaseBloc() : super(DatabaseInitial()) {
     on<GetMediasEvent>((event, emit) async {
       emit(LoadingState());
-
       try {
         final List medias = await getMedias();
         emit(GetMediasSuccessedState(medias));
