@@ -51,22 +51,22 @@ class MediaModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['mediaType'] = this.mediaType;
-    data['adult'] = this.adult;
-    data['genreIds'] = this.genreIds;
-    data['originalLanguage'] = this.originalLanguage;
-    data['originalTitle'] = this.originalTitle;
-    data['overview'] = this.overview;
-    data['popularity'] = this.popularity;
-    data['releaseDate'] = this.releaseDate;
-    data['title'] = this.title;
-    data['video'] = this.video;
-    data['voteAverage'] = this.voteAverage;
-    data['voteCount'] = this.voteCount;
-    data['backdropPath'] = this.backdropPath;
-    data['posterPath'] = this.posterPath;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['id'] = id;
+    data['mediaType'] = mediaType;
+    data['adult'] = adult;
+    data['genreIds'] = genreIds;
+    data['originalLanguage'] = originalLanguage;
+    data['originalTitle'] = originalTitle;
+    data['overview'] = overview;
+    data['popularity'] = popularity;
+    data['releaseDate'] = releaseDate;
+    data['title'] = title;
+    data['video'] = video;
+    data['voteAverage'] = voteAverage;
+    data['voteCount'] = voteCount;
+    data['backdropPath'] = backdropPath;
+    data['posterPath'] = posterPath;
     return data;
   }
 }

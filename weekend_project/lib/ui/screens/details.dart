@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weekend_project/widget/BackgroundImage.dart';
-import 'package:weekend_project/widget/ContainerDetail.dart';
+import 'package:weekend_project/ui/widgets/background_image.dart';
+import 'package:weekend_project/ui/widgets/containerd_detail.dart';
 
 class Detail extends StatelessWidget {
   const Detail({super.key});

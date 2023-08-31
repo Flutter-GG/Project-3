@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weekend_project/data/models/media_model.dart';
 
 class ContainerDetail extends StatelessWidget {
   const ContainerDetail({
@@ -6,16 +7,13 @@ class ContainerDetail extends StatelessWidget {
     this.width = 500,
     this.height = 300,
     this.colors = const Color(0xff393948),
-    this.title = "Movie Name",
-    this.rate = "5",
-    this.description = "",
+    required this.movie,
   });
   final double width;
   final double height;
   final Color colors;
-  final String title;
-  final String rate;
-  final String description;
+  final MediaModel movie;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -35,7 +33,7 @@ class ContainerDetail extends StatelessWidget {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  title,
+                  '${movie.originalTitle}',
                   style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -48,7 +46,7 @@ class ContainerDetail extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    rate,
+                    '${movie.voteAverage}',
                     style: const TextStyle(color: Colors.amber),
                   ),
                   const Icon(
@@ -64,7 +62,7 @@ class ContainerDetail extends StatelessWidget {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  description,
+                  '${movie.overview}',
                   style: const TextStyle(
                       color: Color(0xffADADB8), fontWeight: FontWeight.w100),
                 ),
