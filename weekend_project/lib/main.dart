@@ -3,6 +3,7 @@ import 'package:weekend_project/services/supabase_initializer.dart';
 
 void main() {
   SupabaseInitializer.supabaseInitialize();
+
   runApp(const MainApp());
 }
 
@@ -11,10 +12,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Weekend Project'),
+          child: Column(
+            children: [
+              Text('Weekend Project'),
+            ],
+          ),
         ),
       ),
     );
