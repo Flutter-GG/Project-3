@@ -23,9 +23,4 @@ class Detail extends StatelessWidget {
   }
 }
 
-
-
-
-
-
 //

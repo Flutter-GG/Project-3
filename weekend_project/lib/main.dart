@@ -4,6 +4,7 @@ import 'package:weekend_project/data/services/supabase_initializer.dart';
 
 void main() {
   SupabaseInitializer.supabaseInitialize();
+
   runApp(const MainApp());
 }
 
