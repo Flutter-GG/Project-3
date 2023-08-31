@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:weekend_project/widgets/move_card.dart';
-import 'package:weekend_project/widgets/search_text_field.dart';
+import 'package:weekend_project/ui/widgets/movie_card.dart';
+import 'package:weekend_project/ui/widgets/search_text_field.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  const HomeScreen({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
