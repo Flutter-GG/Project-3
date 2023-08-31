@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weekend_project/screen/details.dart';
 import 'package:weekend_project/services/supabase_initializer.dart';
 
 void main() {
@@ -12,11 +13,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Weekend Project'),
-        ),
-      ),
+      home: Detail()
     );
   }
 }
