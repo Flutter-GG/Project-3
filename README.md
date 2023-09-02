@@ -61,11 +61,6 @@ https://github.com/Reema-saleh/Project-3/assets/108701880/1ea77a3f-eec9-4866-822
 
 # Application overview:
 
-https://github.com/Reema-saleh/Weather_Application/assets/108701880/937137d6-b114-4621-82f8-3e510a1c8440
-
-
-#For any problems go to Our Original Repo:
-
 https://github.com/Reema-saleh/Project-3/assets/108701880/7459f812-6205-4f55-b598-5e5fa73d1c9d
 
 
