@@ -23,7 +23,11 @@ The idea of ​​this project is to build an application that enables the user 
 1- Splash_screen 
 
 
-https://github.com/Reema-saleh/Weather_Application/assets/108701880/a90a2b3c-8d5c-4545-b6fb-c870cf148587
+
+
+https://github.com/Reema-saleh/Project-3/assets/108701880/1ea77a3f-eec9-4866-8224-f3a82841ddc3
+
+
 
 
 2- Home_screen(On the home page, the user will be shown the weather in his city)
@@ -61,4 +65,7 @@ https://github.com/Reema-saleh/Weather_Application/assets/108701880/937137d6-b11
 
 
 #For any problems go to Our Original Repo:
-https://github.com/Reema-saleh/Weather_Application
+
+https://github.com/Reema-saleh/Project-3/assets/108701880/7459f812-6205-4f55-b598-5e5fa73d1c9d
+
+
