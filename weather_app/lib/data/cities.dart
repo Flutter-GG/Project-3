@@ -1,3 +1,5 @@
+// ignore_for_file: equal_elements_in_set
+
 Set<String> cities = {
   "Riyadh",
   "Tokyo",

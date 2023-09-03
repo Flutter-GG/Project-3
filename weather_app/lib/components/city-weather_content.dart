@@ -6,6 +6,7 @@ import 'package:weather_api/constants/spaces.dart';
 import 'package:weather_api/icons_map/icons.dart';
 import 'package:weather_api/models/weather2.dart';
 
+// ignore: must_be_immutable
 class CityWeatherContent extends StatelessWidget {
   CityWeatherContent({super.key, required this.weather2});
   Weather2 weather2;

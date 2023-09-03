@@ -12,6 +12,7 @@ import 'package:weather_api/models/weather2.dart';
 import 'package:weather_api/screens/home_screen.dart';
 import 'package:weather_api/services/supabaseData.dart';
 
+// ignore: must_be_immutable
 class WeatherContent extends StatelessWidget {
   WeatherContent({super.key, required this.allData});
   Weather2 allData;
